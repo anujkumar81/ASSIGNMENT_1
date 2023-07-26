@@ -1,0 +1,18 @@
+#Question 7
+
+# Lists are mutable
+my_list = [1, 2, 3]
+print(my_list)  # Output: [1, 2, 3]
+
+# Modifying the list
+my_list[0] = 10
+print(my_list)  # Output: [10, 2, 3]
+
+
+
+# Strings are immutable
+my_string = "Hello"
+print(my_string)  # Output: Hello
+
+# Trying to modify the string (Error: strings are immutable)
+my_string[0] = "h"  # TypeError: 'str' object does not support item assignment
